@@ -4,9 +4,15 @@ Using Quil to generate some cool graphics.
 
 ## Usage
 
-Start the repl with `lein repl`, then run the animation by executing `(use 'quil-experiments.funny-circles)`.
+Start the repl with `lein repl`, then run the animation by executing one of the following:
 
-![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/example-1.png)
+ `(use 'quil-experiments.funny-circles)`
+
+![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/funny-circles.png)
+
+`(use 'quil-experiments.follow-mouse-cube)`
+
+![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/follow-mouse-cube.png)
 
 ## License
 
