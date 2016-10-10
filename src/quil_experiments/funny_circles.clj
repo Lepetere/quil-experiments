@@ -1,4 +1,7 @@
-(ns quil-experiments.core
+;; Clicking on the canvas adds two colored circles revolving around the point clicked
+;; in opposite directions.
+
+(ns quil-experiments.funny-circles
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 
