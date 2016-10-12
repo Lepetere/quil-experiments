@@ -14,6 +14,10 @@ Start the repl with `lein repl`, then run the animation by executing one of the 
 
 ![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/follow-mouse-cube.png)
 
+`(use 'quil-experiments.rotating-squares)`
+
+![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/rotating-squares.png)
+
 ## License
 
 Copyright © 2016 Peter Fessel

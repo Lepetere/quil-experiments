@@ -67,17 +67,11 @@
   (q/color-mode :hsb)
   {})
 
-(defn update-state [state]
-  ;; state is not used at the moment
-  {})
-
 (q/defsketch quil-experiments
   :title "You spin my cube right round"
   :size [screen-width screen-height]
   ; setup function called only once, during sketch initialization.
   :setup setup
-  ; update-state is called on each iteration before draw-state.
-  :update update-state
   :draw draw
   ; use functional-mode middleware.
   :middleware [m/fun-mode]
