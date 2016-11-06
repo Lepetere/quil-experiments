@@ -18,6 +18,9 @@ Start the repl with `lein repl`, then run the animation by executing one of the 
 
 ![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/rotating-squares.png)
 
+`(use 'quil-experiments.moving-grid)`
+![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/moving-grid.png)
+
 ## License
 
 Copyright © 2016 Peter Fessel
