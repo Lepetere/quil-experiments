@@ -20,11 +20,7 @@ Start the repl with `lein repl`, then run the animation by executing one of the 
 
 `(use 'quil-experiments.follow-mouse-cube)`
 
-![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/follow-mouse-cube.png)
-
 `(use 'quil-experiments.funny-circles)`
-
-![alt tag](https://raw.githubusercontent.com/lepetere/quil-experiments/master/example-pictures/funny-circles.png)
 
 ## License
 

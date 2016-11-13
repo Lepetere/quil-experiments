@@ -1,4 +1,4 @@
-;; two rotating squares
+;; a rotating grid
 
 (ns quil-experiments.moving-grid
   (:require [quil.core :as q]
@@ -38,9 +38,9 @@
     (q/pop-matrix))
 
 (defn setup []
-  (q/color-mode :hsb)
+  (q/color-mode :rgb)
   (q/no-fill)
-  (q/stroke 255)
+  (q/stroke 255 77 1)
   (q/stroke-weight 0.01)
   (q/frame-rate frame-rate)
   { :rotation-degree 0.0 })
