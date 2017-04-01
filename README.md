@@ -20,6 +20,8 @@ Start the repl with `lein repl`, then run the animation by executing one of the 
 
 `(use 'quil-experiments.follow-mouse-cube)`
 
+`(use 'quil-experiments.color-circles)`
+
 `(use 'quil-experiments.funny-circles)`
 
 ## License
